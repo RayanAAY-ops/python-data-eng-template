@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Installed packages
+*.egg
+*.whl
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+.cache/
+
+# MyPy
+.mypy_cache/
+
+# Linting
+.pylint.d/
+.flake8
+.pyre/
+.pytype/
+
+# Docker files
+docker-compose.override.yml
+.dockerignore
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# AWS credentials
+*.pem
+.terraform.lock.hcl
+.aws/
+
+# Configurations and secrets
+config/config.yaml
+*.env
+.env.*
+secrets.*
+
+# Data files
+data/raw/
+data/processed/
+
+# Python virtual environments
+.pip-selfcheck.json
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows thumbnail cache
+Thumbs.db
+Desktop.ini
+
+# Temporary files created by editors
+*.bak
+~$*
+
+# Pre-commit hooks
+.pre-commit-config.yaml
