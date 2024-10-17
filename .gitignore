@@ -57,15 +57,7 @@ crash.log
 .terraform.lock.hcl
 .aws/
 
-# Configurations and secrets
-config/config.yaml
-*.env
-.env.*
-secrets.*
 
-# Data files
-data/raw/
-data/processed/
 
 # Python virtual environments
 .pip-selfcheck.json
@@ -89,5 +81,4 @@ Desktop.ini
 *.bak
 ~$*
 
-# Pre-commit hooks
-.pre-commit-config.yaml
+
